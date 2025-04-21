@@ -6,7 +6,7 @@ function SpaceTrivia() {
   
   const fetchTrivia = async () => {
 
-    const URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
+    const URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${APIKEY}`;
     
     try {
       setLoading(true);
