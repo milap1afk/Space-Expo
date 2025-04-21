@@ -7,7 +7,7 @@ function MarsRoverPhotos() {
   
   useEffect(() => {
     const fetchRoverPhotos = async () => {
-      const apiKey = "LPqsvHbVGPpxdBgW8NeJuFskTmrAP8OKGd6RuW8G";
+   
       const sol = 1000;
       const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=${sol}&api_key=${apiKey}`;
 
