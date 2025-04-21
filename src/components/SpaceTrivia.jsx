@@ -5,7 +5,7 @@ function SpaceTrivia() {
   const [loading, setLoading] = useState(false);
   
   const fetchTrivia = async () => {
-    const API_KEY = "AIzaSyB7RvEk0U0JYsr8UA7-szhn2vwPaqqxjCw";
+
     const URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
     
     try {
